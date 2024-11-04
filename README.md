@@ -9,13 +9,26 @@ The dataset was provided by the institute to analyse the sales performance of a 
 The data used is provided by Incubator Hub. The data was provided in Excel workbook format, making it accessible for analysis.
 
 ### Tool used 
--	Microsoft EXCEL was used for the initial exploration of this dataset, clean and summaries the total sales by product region and months [Cleaned dataset]()
+-	Microsoft EXCEL was used for the initial exploration of this dataset, clean and summaries the total sales by product region and months 
+- SQL- Structure Query Language was used for Querying of data
+- Power BI was used for the visualization
+- GitHub for Portfolio Building
 
-- SQL structure Query Language was used for Querying of data
-  
-- Power BI  was used for the visualization
+### Data Cleaning and Preparation
+  in the initial phase of Data cleanind and preparations, the following action ere performened
+  1. Data Inspection
+  2. Data Cleaning and Formatting
 
-
+### DATA STRUCTURE
+The dataset contains:
+- Order ID, 
+- Customer ID, 
+- Product, 
+- Region, 
+- Order Date, 
+- Quantity, 
+- Unit Price.
+     
 ### Key Performing Indicators (KPIs) used for this analysis include:
 1. Total sales by product, region, and month. 
 2. Total sales for each product category. 
@@ -27,19 +40,14 @@ The data used is provided by Incubator Hub. The data was provided in Excel workb
 8. The percentage of total sales contributed by each region.
 9. Identify products with no sales in the last quarter.
     
-### DATA STRUCTURE
-The dataset contains 
-- Order ID, 
-- Customer ID, 
-- Product, 
-- Region, 
-- Order Date, 
-- Quantity, 
-- Unit Price
+### Data Analysis
+Some of the analyses and line of queries 
 
-  ### Data Cleaning and Preparation
-  in the initial phase of Data cleanind and preparations, the following action ere performened
-  1. Data Inspection
-  2. Data Cleaning and Formatting:  Duplicate Values, and Blank Cells: Ensured data quality by correcting any spelling errors, removing duplicate entries, an
-  3. 
+- Microsoft Excel
+Calculated the Total Sales (unit price by Quantity)
+ =(F2*G2)
+
+
+ 
+  
   
