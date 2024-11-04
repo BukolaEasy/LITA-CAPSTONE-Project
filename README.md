@@ -1,4 +1,4 @@
-# LITA-CAPSTONE Project
+# LITA-CAPSTONE Project 1
 
 ## Project Title: Sales Data
 ---
