@@ -54,9 +54,69 @@ Some of the analyses and line of queries used includes;
 - Microsoft Excel
 Calculated the Total Sales (unit price by Quantity)
  =(F2*G2)
-
-
-
+View Table content
+Create Database
+```SQL
+create database Capston_project1
+```
+Import Table and View
+```SQL
+Select *from[dbo].[Capstone_Data_sql_project_1]
+```
+Retrieve the total sales for each product category. 
+```SQL
+select Product, SUM(Quantity) as Totalsale
+from [dbo].[Capstone_Data_sql_project_1]
+Group by Product;
+```
+Find the number of sales transactions in each region.
+```SQL
+SELECT Region, count(*) as NumberofTransaction
+from [dbo].[Capstone_Data_sql_project_1]
+group by Region;
+```
+find the highest-selling product by total sales value
+```SQL
+select Top 1 product, sum(quantity*unitprice) as Totalsale
+from [dbo].[Capstone_Data_sql_project_1]
+group by product
+order by Totalsale desc;
+```
+Calculate total revenue per product
+```SQL
+select product, sum(quantity) as TotalRevenue
+from [dbo].[Capstone_Data_sql_project_1]
+group by product
+order by TotalRevenue desc;
+```
+Calculate monthly sales totals for the current year. 
+```SQL
+select Month(orderdate) as Month,
+sum(quantity*unitprice)as Monthly_sales
+from [dbo].[Capstone_Data_sql_project_1]
+where year(orderdate)=year(getdate())
+group by Month(orderdate);
+```
+Find the top 5 customers by total purchase amount. 
+```SQL
+select top 5 Customer_ID,
+SUM(QUANTITY*UNITPRICE) AS TOTAL_PURCHASE_AMOUNT
+FROM[dbo].[Capstone_Data_sql_project_1]
+GROUP BY CUSTOMER_ID ORDER BY TOTAL_PURCHASE_AMOUNT DESC;
+```
+calculate the percentage of total sales contributed by each region.
+```SQL
+select Region,
+sum(Quantity*unitprice) as totalsales;
+sum(totalsales)*1.0/(select sum(totalsales) from[dbo].[Capstone_Data_sql_project_1]) * 100
+as Percentageoftotalsales;
+```
+Identify products with no sales in the last quarter. 
+```SQL
+SELECT PRODUCT,ORDERID FROM[dbo].[Capstone_Data_sql_project_1]
+WHERE NOT EXISTS(SELECT 1 FROM[dbo].[Capstone_Data_sql_project_1]
+WHERE ORDERID= ORDERID AND ORDERDATE>=DATEADD(QUARTER,-1,GETDATE()));
+```
 ### Data Visualization
 ---
 Some report created from the data set 
