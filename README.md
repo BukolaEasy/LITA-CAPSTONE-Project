@@ -1,11 +1,14 @@
 # LITA-CAPSTONE Project
 
 ## Project Title: Sales Data
+---
 
 ### INTRODUCTION
+---
 The dataset was provided by the institute to analyse the sales performance of a retail store, uncover key insights such as top-selling products, regional performance, and monthly sales trends.
 
 ### Data Source 
+---
 The data used is provided by Incubator Hub. The data was provided in Excel workbook format, making it accessible for analysis.
 
 ### Tool used 
@@ -15,11 +18,13 @@ The data used is provided by Incubator Hub. The data was provided in Excel workb
 - GitHub for Portfolio Building
 
 ### Data Cleaning and Preparation
-  in the initial phase of Data cleanind and preparations, the following action ere performened
+---
+  In the initial phase of Data cleaning and preparations, the following action were performened
   1. Data Inspection
   2. Data Cleaning and Formatting
 
 ### DATA STRUCTURE
+---
 The dataset contains:
 - Order ID, 
 - Customer ID, 
@@ -28,8 +33,10 @@ The dataset contains:
 - Order Date, 
 - Quantity, 
 - Unit Price.
-     
-### Key Performing Indicators (KPIs) used for this analysis include:
+
+### Exploratory Data Analysis
+  ---
+#### Key Performing Indicators (KPIs) used for this analysis include:
 1. Total sales by product, region, and month. 
 2. Total sales for each product category. 
 3. The number of sales transactions in each region.
@@ -41,7 +48,8 @@ The dataset contains:
 9. Identify products with no sales in the last quarter.
     
 ### Data Analysis
-Some of the analyses and line of queries 
+---
+Some of the analyses and line of queries used includes;
 
 - Microsoft Excel
 Calculated the Total Sales (unit price by Quantity)
