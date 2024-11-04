@@ -56,6 +56,17 @@ Calculated the Total Sales (unit price by Quantity)
  =(F2*G2)
 
 
+
+### Data Visualization
+---
+Some report created from the data set 
+
+
+### Insights
+
+
+### Recommendation
+
  
   
   
