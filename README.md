@@ -128,6 +128,8 @@ WHERE ORDERID= ORDERID AND ORDERDATE>=DATEADD(QUARTER,-1,GETDATE()));
 Some report created from the data set 
 
 
+![Sales Dashboard](https://github.com/user-attachments/assets/6ad84895-698a-4939-af23-ae8acb54e9aa)
+
 ### Insights
 
 
