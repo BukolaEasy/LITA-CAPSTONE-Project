@@ -59,7 +59,7 @@ Calculated the Total Sales(Revenue) (unit price by Quantity)
 Pivot Table
 ![Pivot Table](https://github.com/user-attachments/assets/be0bb5c6-ea5a-45db-9090-c1a8baf0ecac)
 
-
+![SQL QUERIES](https://github.com/user-attachments/assets/6b0a192f-7786-492c-b776-448270fdacf7)
 View Table content
 Create Database
 ```SQL
@@ -129,6 +129,7 @@ Some report created from the data set
 
 
 ![Sales Dashboard](https://github.com/user-attachments/assets/6ad84895-698a-4939-af23-ae8acb54e9aa)
+
 
 ### Insights
 
