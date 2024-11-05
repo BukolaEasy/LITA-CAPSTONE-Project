@@ -52,7 +52,7 @@ The dataset contains:
 Some of the analyses and line of queries used includes;
 
 - Microsoft Excel
-Calculated the Total Sales (unit price by Quantity)
+Calculated the Total Sales(Revenue) (unit price by Quantity)
  =(F2*G2)
 ![Dataset](https://github.com/user-attachments/assets/17b3bcb0-3a52-430a-bb19-a489dcaf8a35)
 
