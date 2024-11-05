@@ -56,6 +56,9 @@ Calculated the Total Sales(Revenue) (unit price by Quantity)
  =(F2*G2)
 ![Dataset](https://github.com/user-attachments/assets/17b3bcb0-3a52-430a-bb19-a489dcaf8a35)
 
+Pivot Table
+![Pivot Table](https://github.com/user-attachments/assets/be0bb5c6-ea5a-45db-9090-c1a8baf0ecac)
+
 
 View Table content
 Create Database
